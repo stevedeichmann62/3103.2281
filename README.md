@@ -12,7 +12,8 @@ However, it is important to start with well-tested basal rate and settings for i
   * The Quick Guide provides an overview of autoISF and its features
   * The Release Notes are relevant for users of previous versions of autoISF, because some preferences have been re-named and moved to different sub-sections within the settings
 * This repository here was only created to provide a version of AndroidAPS with the current autoISF extensions already integrated to simplify the build process
-* This branch https://github.com/T-o-b-i-a-s/AndroidAPS/tree/T-o-b-i-a-s:3.1.0.2-ai2.2.7 uses AndroidAPS 3.1.0.2 as a base and adds autoISF 2.2.7 to it.
+* This branch https://github.com/T-o-b-i-a-s/AndroidAPS/tree/T-o-b-i-a-s:3.1.0.2-ai2.2.8 uses 
+  AndroidAPS 3.1.0.3 as a base and adds autoISF 2.2.8 to it.
 
 ## How to build this branch in Android Studio
 1. Close any currently open projects in Android Stuidio
@@ -22,7 +23,8 @@ However, it is important to start with well-tested basal rate and settings for i
 5. Android Studio now shows the name of the current branch in the lower right corner
   * Usually this will be `master`, which contains an out-dated version of AndroidAPS, do not use this branch
   * Rather switch to the branch you want to build by clicking on the branch name, choosing "show more" under "Remote branches" and look for the name of
-    the branch with an "origin/" prefix: e.g. origin/3.1.0.2-ai2.2.7. Left-click that name and select "Checkout"
+    the branch with an "origin/" prefix: e.g. origin/3.1.0.3-ai2.2.8. Left-click that name and 
+    select "Checkout"
     ![Branch selection](Branch_selection_sample.png)
 6. The system will now create a local branch with the same name as the remote branch and switch to that branch, which is indicated by the name of
    the branch being shown in the lower right corner
