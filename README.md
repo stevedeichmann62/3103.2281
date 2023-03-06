@@ -18,7 +18,7 @@ However, it is important to start with well-tested basal rate and settings for i
   and [mountrcg](https://github.com/mountrcg) and [myself](https://github.com/T-o-b-i-a-s). 
 * This repository here was created to provide a stable version of AndroidAPS with the current autoISF extensions 
   already integrated to simplify the build process.  
-* This branch https://github.com/T-o-b-i-a-s/AndroidAPS/tree/T-o-b-i-a-s:3.1.0.3-ai2.2.8 uses 
+* This branch https://github.com/T-o-b-i-a-s/AndroidAPS/tree/3.1.0.3-ai2.2.8 uses 
   AndroidAPS 3.1.0.3 (which is the `master` version on the official [Nightscout AndroidAPS](https://github.com/nightscout/AndroidAPS) 
   repo by the time when this text was written) as a base and adds autoISF 2.2.8 to it.
 
