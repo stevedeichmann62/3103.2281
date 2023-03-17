@@ -1407,6 +1407,7 @@ var determine_basal = function determine_basal(glucose_status, currenttemp, iob_
         // if that would put us over max_iob, then reduce accordingly
         if (insulinReq > max_iob-iob_data.iob) {
             rT.reason += "max_iob " + max_iob + ", ";
+            console.error("InsReq", round(insulinReq,2), "capped at", round(max_iob-iob_data.iob,2), "to not exceed max_iob");
             insulinReq = max_iob-iob_data.iob;
         }
 
