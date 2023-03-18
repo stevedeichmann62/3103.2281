@@ -423,7 +423,7 @@ function determine_varSMBratio(profile, bg, target_bg, loop_wanted_smb)
     var fix_SMB = profile.smb_delivery_ratio;
     var lower_SMB = Math.min(profile.smb_delivery_ratio_min, profile.smb_delivery_ratio_max);
     var higher_SMB = Math.max(profile.smb_delivery_ratio_min, profile.smb_delivery_ratio_max);
-    var higher_bg = target_bg + profile.smb_delivery_ratio_bg_range;
+    var higher_bg = target_bg + smb_delivery_ratio_bg_range;
     var new_SMB = fix_SMB;
     if ( smb_delivery_ratio_bg_range > 0 ) {
         new_SMB = lower_SMB + (higher_SMB-lower_SMB)*(bg-target_bg) / smb_delivery_ratio_bg_range
