@@ -14,13 +14,14 @@ However, it is important to start with well-tested basal rate and settings for i
   
 ## Why do I get AutoISF here and not at ga-zelle's Repo?
 * The majority of the AutoISF design and development effort was done by [ga-zelle](https://github.com/ga-zelle) with support from 
-  [swissalpine](https://github.com/swissalpine), [claudi](https://github.com/lutzlukesch), [BerNie](https://github.com/bherpichb) 
-  and [mountrcg](https://github.com/mountrcg) and [myself](https://github.com/T-o-b-i-a-s). 
+  [swissalpine](https://github.com/swissalpine), [claudi](https://github.com/lutzlukesch), 
+  [BerNie](https://github.com/bherpichb), [mountrcg](https://github.com/mountrcg) and
+  [myself](https://github.com/T-o-b-i-a-s). 
 * This repository here was created to provide a stable version of AndroidAPS with the current autoISF extensions 
   already integrated to simplify the build process.  
-* This branch https://github.com/T-o-b-i-a-s/AndroidAPS/tree/3.1.0.3-ai2.2.8 uses 
+* This branch https://github.com/T-o-b-i-a-s/AndroidAPS/tree/3.1.0.3-ai2.2.8.1 uses 
   AndroidAPS 3.1.0.3 (which is the `master` version on the official [Nightscout AndroidAPS](https://github.com/nightscout/AndroidAPS) 
-  repo by the time when this text was written) as a base and adds autoISF 2.2.8 to it.
+  repo by the time when this text was written) as a base and adds autoISF 2.2.8.1 to it.
 
 ## How to build this branch in Android Studio
 1. Close any currently open projects in Android Stuidio
@@ -31,18 +32,19 @@ However, it is important to start with well-tested basal rate and settings for i
   * Usually this will be `master`, which contains an out-dated version of AndroidAPS, do **not** use the `master` branch
   * If it is not already selected, switch to the branch you want to build by clicking on the branch name, 
     choosing "show more" under "Remote branches" and look for the name of
-    the branch with an "origin/" prefix: e.g. origin/3.1.0.3-ai2.2.8. Left-click that name and 
+    the branch with an "origin/" prefix: e.g. origin/3.1.0.3-ai2.2.8.1. Left-click that name and 
     select "Checkout". The following screenshot shows how this will look like (a different branch was used here):
     ![Branch selection](Branch_selection_sample.png)
 6. The system will now create a local branch with the same name as the remote branch and switch to that branch, which is indicated by the name of
    the branch being shown in the lower right corner
 7. You can now build the APK with Build -> Generate signed Bundle / APK 
-8. In case of any error messages during the build, try to first run a "Clean build" by selecting Build -> Clean to remove any reminiants from previous builds
+8. In case of any error messages during the build, try to first run a "Clean build" by selecting 
+   Build -> Clean to remove any reminiants from previous builds and then start the APK build again. 
 
 General remark: 
 If you have been working with AndroidAPS 2.x before and this is the first time you build a 3.x version, 
 please first build and run the regular AndroidAPS 3.x version from 
-https://github.com/nightscout/AndroidAPS and doublce-check that this works fine. 
+https://github.com/nightscout/AndroidAPS and double-check that this works fine. 
 Only then upgrade to the version including autoISF.
 
 For questions or feedback, please contact us at https://de.loopercommunity.org/t/woher-wie-autoisf/
